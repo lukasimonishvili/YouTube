@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube</title>
+    <link rel="SHORTCUT ICON" href="img/youtube-logo.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet"
+</head>
+<body>
+    <div class="fixed flex header-parent">
+    <header class="header flex">
+        <div class="flex header__left-side">
+            <div class="header__left-side__burger"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon">
+                    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" class="style-scope yt-icon"></path>
+                  </g></svg>
+            </div>
+            <div class="header__left-side__logo relative">
+                    <svg viewBox="0 0 200 60" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope ytd-topbar-logo-renderer" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g viewBox="0 0 200 60" preserveAspectRatio="xMidYMid meet" class="style-scope ytd-topbar-logo-renderer">
+                            <g class="style-scope ytd-topbar-logo-renderer">
+                              <path fill="#FF0000" d="M63,14.87c-0.72-2.7-2.85-4.83-5.56-5.56C52.54,8,32.88,8,32.88,8S13.23,8,8.32,9.31
+                                c-2.7,0.72-4.83,2.85-5.56,5.56C1.45,19.77,1.45,30,1.45,30s0,10.23,1.31,15.13c0.72,2.7,2.85,4.83,5.56,5.56
+                                C13.23,52,32.88,52,32.88,52s19.66,0,24.56-1.31c2.7-0.72,4.83-2.85,5.56-5.56C64.31,40.23,64.31,30,64.31,30
+                                S64.31,19.77,63,14.87z" class="style-scope ytd-topbar-logo-renderer"></path>
+                              <polygon fill="#FFFFFF" points="26.6,39.43 42.93,30 26.6,20.57" class="style-scope ytd-topbar-logo-renderer"></polygon>
+                            </g>
+                            <g class="style-scope ytd-topbar-logo-renderer">
+                              <g id="youtube-paths" class="style-scope ytd-topbar-logo-renderer">
+                                <path fill="#282828" d="M92.69,48.03c-1.24-0.84-2.13-2.14-2.65-3.91c-0.52-1.77-0.79-4.12-0.79-7.06v-4
+                                  c0-2.97,0.3-5.35,0.9-7.15c0.6-1.8,1.54-3.11,2.81-3.93c1.27-0.82,2.94-1.24,5.01-1.24c2.04,0,3.67,0.42,4.9,1.26
+                                  c1.23,0.84,2.13,2.15,2.7,3.93c0.57,1.78,0.85,4.16,0.85,7.12v4c0,2.94-0.28,5.3-0.83,7.08c-0.55,1.78-1.45,3.09-2.7,3.91
+                                  c-1.24,0.82-2.93,1.24-5.06,1.24C95.65,49.29,93.93,48.87,92.69,48.03z M99.66,43.71c0.34-0.9,0.52-2.37,0.52-4.4v-8.59
+                                  c0-1.98-0.17-3.42-0.52-4.34c-0.34-0.91-0.95-1.37-1.82-1.37c-0.84,0-1.43,0.46-1.78,1.37c-0.34,0.91-0.52,2.36-0.52,4.34v8.59
+                                  c0,2.04,0.16,3.51,0.49,4.4c0.33,0.9,0.93,1.35,1.8,1.35C98.71,45.06,99.31,44.61,99.66,43.71z" class="style-scope ytd-topbar-logo-renderer"></path>
+                                <path fill="#282828" d="M188.16,37.13v1.39c0,1.77,0.05,3.09,0.16,3.98c0.1,0.88,0.32,1.53,0.65,1.93
+                                  c0.33,0.4,0.84,0.61,1.53,0.61c0.93,0,1.57-0.36,1.91-1.08c0.34-0.72,0.53-1.92,0.56-3.6l5.35,0.31
+                                  c0.03,0.24,0.04,0.57,0.04,0.99c0,2.55-0.7,4.45-2.09,5.71c-1.39,1.26-3.36,1.89-5.91,1.89c-3.06,0-5.2-0.96-6.43-2.88
+                                  c-1.23-1.92-1.84-4.88-1.84-8.9v-4.81c0-4.14,0.64-7.15,1.91-9.06c1.27-1.9,3.45-2.85,6.54-2.85c2.13,0,3.76,0.39,4.9,1.17
+                                  c1.14,0.78,1.94,1.99,2.41,3.64c0.46,1.65,0.7,3.93,0.7,6.83v4.72H188.16z M188.95,25.53c-0.31,0.39-0.52,1.03-0.63,1.91
+                                  c-0.11,0.88-0.16,2.23-0.16,4.02v1.98h4.54v-1.98c0-1.77-0.06-3.11-0.18-4.02c-0.12-0.91-0.34-1.56-0.65-1.93
+                                  c-0.31-0.37-0.8-0.56-1.46-0.56C189.75,24.94,189.26,25.14,188.95,25.53z" class="style-scope ytd-topbar-logo-renderer"></path>
+                                <path fill="#282828" d="M77.59,36.61l-7.06-25.49h6.16l2.47,11.55c0.63,2.85,1.09,5.27,1.39,7.28h0.18
+                                  c0.21-1.44,0.67-3.85,1.39-7.24l2.56-11.6h6.16L83.7,36.61v12.23h-6.11V36.61z" class="style-scope ytd-topbar-logo-renderer"></path>
+                                <path fill="#282828" d="M126.45,21.28v27.55h-4.85l-0.54-3.37h-0.13c-1.32,2.55-3.3,3.82-5.93,3.82c-1.83,0-3.18-0.6-4.05-1.8
+                                  c-0.87-1.2-1.3-3.07-1.3-5.62V21.28h6.2v20.23c0,1.23,0.13,2.11,0.4,2.63c0.27,0.52,0.72,0.79,1.35,0.79
+                                  c0.54,0,1.06-0.16,1.55-0.49c0.49-0.33,0.86-0.75,1.1-1.26V21.28H126.45z" class="style-scope ytd-topbar-logo-renderer"></path>
+                                <path fill="#282828" d="M158.27,21.28v27.55h-4.85l-0.54-3.37h-0.13c-1.32,2.55-3.3,3.82-5.93,3.82c-1.83,0-3.18-0.6-4.05-1.8
+                                  c-0.87-1.2-1.3-3.07-1.3-5.62V21.28h6.2v20.23c0,1.23,0.13,2.11,0.4,2.63c0.27,0.52,0.72,0.79,1.35,0.79
+                                  c0.54,0,1.06-0.16,1.55-0.49c0.49-0.33,0.86-0.75,1.1-1.26V21.28H158.27z" class="style-scope ytd-topbar-logo-renderer"></path>
+                                <path fill="#282828" d="M143.31,16.11h-6.16v32.72h-6.07V16.11h-6.16v-4.99h18.38V16.11z" class="style-scope ytd-topbar-logo-renderer"></path>
+                                <path fill="#282828" d="M178.8,25.69c-0.38-1.74-0.98-3-1.82-3.78c-0.84-0.78-1.99-1.17-3.46-1.17c-1.14,0-2.2,0.32-3.19,0.97
+                                  c-0.99,0.64-1.75,1.49-2.29,2.54h-0.05l0-14.52h-5.98v39.11h5.12l0.63-2.61h0.13c0.48,0.93,1.2,1.66,2.16,2.2
+                                  c0.96,0.54,2.02,0.81,3.19,0.81c2.1,0,3.64-0.97,4.63-2.9c0.99-1.93,1.48-4.95,1.48-9.06v-4.36
+                                  C179.36,29.84,179.17,27.43,178.8,25.69z M173.11,36.93c0,2.01-0.08,3.58-0.25,4.72c-0.16,1.14-0.44,1.95-0.83,2.43
+                                  c-0.39,0.48-0.91,0.72-1.57,0.72c-0.51,0-0.98-0.12-1.42-0.36c-0.43-0.24-0.79-0.6-1.06-1.08V27.71
+                                  c0.21-0.75,0.57-1.36,1.08-1.84c0.51-0.48,1.06-0.72,1.66-0.72c0.63,0,1.12,0.25,1.46,0.74c0.34,0.49,0.58,1.33,0.72,2.49
+                                  c0.13,1.17,0.2,2.83,0.2,4.99V36.93z" class="style-scope ytd-topbar-logo-renderer"></path>
+                              </g>
+                            </g>
+                          </g></svg>
+                    <p class="header__left-side__logo__sup absolute">GE</p>
+            </div>
+        </div>
+        <div class="flex header__search-bar">
+            <div class="header__search-bar__input-parent">
+                <input type="text" name="search" class="search-bar__input-parent__input" placeholder="ძიება">
+            </div>
+            <div class="header__search-bar__button flex">
+                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="search-bar__button__icon"><g class="style-scope yt-icon">
+                            <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" class="style-scope yt-icon"></path>
+                          </g></svg>
+            </div>
+        </div>
+        <div class="flex header__right-side">
+            <div class="header__right-side__container flex">
+                <div class="right-side__container__logos">
+                        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon">
+                                <path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4zM14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2z" class="style-scope yt-icon"></path>
+                              </g></svg>
+                </div>
+            </div>
+            <div class="header__right-side__container flex">
+                <div class="right-side__container__logos">
+                        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon">
+                                <path d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z" class="style-scope yt-icon"></path>
+                              </g></svg>
+                </div>
+            </div>
+            <div class="header__right-side__container flex">
+                <div class="right-side__container__logos">
+                        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon">
+                                <path d="M12.04 4C17 4 21 7.7 21 12.3c0 4.57-4 8.28-8.96 8.28-1.76 0-3.4-.47-4.8-1.28-.15-.1-.35-.1-.52-.04-1.58.68-2.8.88-3.45.93-.2 0-.34-.26-.22-.4.6-.9 1.08-1.8 1.43-2.5.1-.2.1-.46-.04-.65C3.58 15.4 3.1 13.9 3.1 12.3c0-4.6 4-8.3 8.94-8.3zm1.6 9.56v1.58c0 .17.22.25.34.13l3.43-3.34c.1-.07.1-.2 0-.27L14 8.32c-.12-.12-.33-.04-.33.13V10c0 .1-.07.18-.17.2-3.38.52-5.04 2.73-5.74 5.1-.06.2.2.34.32.2 1.3-1.42 3.05-2.1 5.4-2.13.1 0 .2.1.2.2z" class="style-scope yt-icon"></path>
+                              </g></svg>
+                </div>
+            </div>
+            <div class="header__right-side__container flex">
+                <div class="right-side__container__logos">
+                        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon">
+                                <path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z" class="style-scope yt-icon"></path>
+                              </g></svg>
+                </div>
+            </div>
+            <div class="header__right-side__container-large flex">
+                <img src="img/user-logo.jpg" alt="" class="right-side__container-large__logo">
+            </div>
+        </div>
+    </header>
+    </div>
+    <main class="content">
+      <div class="content__container">
+        <h2 class="content__container__heading-youtubeMixes">YouTube მიქსები<span class="container__heading-youtubeMixes__span">სიმღერაზე ან შემსრულებელზე დაფუძნებული უწყვეტი დასაკრავი სიები</span></h2>
+        <div class="content__container__youtubeMixes flex">
+          <div class="container__youtubeMixes__childs relative">
+            <img src="img/nfs.jpg" alt="" class="youtubeMixes__childs__img absolute">
+            <div class="youtubeMixes__childs__plus50 absolute flex">
+              <p class="childs__plus50__paragraph">50+</p>
+              <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; margin: 4px 0 0; fill: hsla(0, 0%, 100%, .8);">
+                <g class="style-scope yt-icon">
+                  <path d="M20.3 11.95c0 2.46-.95 4.7-2.47 6.32l1.07 1.13c1.8-1.92 2.9-4.55 2.9-7.45 0-2.9-1.12-5.54-2.9-7.45l-1.07 1.13c1.52 1.62 2.46 3.86 2.46 6.32zm-17 0c0-2.46.93-4.7 2.45-6.32L4.7 4.5c-1.8 1.9-2.9 4.54-2.9 7.45 0 2.9 1.1 5.53 2.9 7.45l1.05-1.13C4.23 16.64 3.3 14.4 3.3 11.95zm3 0c0-1.6.6-3.03 1.57-4.08L6.8 6.75c-1.24 1.34-2 3.17-2 5.2 0 2.03.76 3.86 2 5.2l1.07-1.12c-.97-1.06-1.58-2.5-1.58-4.08zm10.47-5.2L15.7 7.87c1 1.05 1.6 2.5 1.6 4.08 0 1.6-.6 3.02-1.6 4.08l1.07 1.12c1.25-1.34 2.02-3.17 2.02-5.2 0-2.03-.8-3.86-2.05-5.2zm-6.64 2.93l4.16 2.3-4.2 2.3v-4.6z" class="style-scope yt-icon"></path>
+                </g>
+              </svg>
+            </div>
+            <div class="play-all absolute">
+              <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; fill: hsla(0, 0%, 100%, .8);">
+                <g>
+                  <path d="M8 5v14l11-7z"></path>
+                </g>    
+              </svg>
+              <p>ყველას დაკვრა</p>
+            </div>
+            <h3 class="absolute youtubeMixes__childs__song-name">მიქსი — Coolio - Gangsta's<br>Paradise (feat L.V.)(Need For...</h3>
+            <p class="youtubeMixes__childs__youtube-footer absolute">Youtube</p>
+          </div>
+          <div class="container__youtubeMixes__childs relative">
+            <img src="img/we-will-rock-you.jpg" alt="" class="youtubeMixes__childs__img absolute">
+            <div class="youtubeMixes__childs__plus50 absolute flex">
+              <p class="childs__plus50__paragraph">50+</p>
+              <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; margin: 4px 0 0; fill: hsla(0, 0%, 100%, .8);">
+                <g class="style-scope yt-icon">
+                  <path d="M20.3 11.95c0 2.46-.95 4.7-2.47 6.32l1.07 1.13c1.8-1.92 2.9-4.55 2.9-7.45 0-2.9-1.12-5.54-2.9-7.45l-1.07 1.13c1.52 1.62 2.46 3.86 2.46 6.32zm-17 0c0-2.46.93-4.7 2.45-6.32L4.7 4.5c-1.8 1.9-2.9 4.54-2.9 7.45 0 2.9 1.1 5.53 2.9 7.45l1.05-1.13C4.23 16.64 3.3 14.4 3.3 11.95zm3 0c0-1.6.6-3.03 1.57-4.08L6.8 6.75c-1.24 1.34-2 3.17-2 5.2 0 2.03.76 3.86 2 5.2l1.07-1.12c-.97-1.06-1.58-2.5-1.58-4.08zm10.47-5.2L15.7 7.87c1 1.05 1.6 2.5 1.6 4.08 0 1.6-.6 3.02-1.6 4.08l1.07 1.12c1.25-1.34 2.02-3.17 2.02-5.2 0-2.03-.8-3.86-2.05-5.2zm-6.64 2.93l4.16 2.3-4.2 2.3v-4.6z" class="style-scope yt-icon"></path>
+                </g>
+              </svg>
+            </div>
+            <div class="play-all absolute">
+              <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; fill: hsla(0, 0%, 100%, .8);">
+                <g>
+                  <path d="M8 5v14l11-7z"></path>
+                </g>    
+              </svg>
+              <p>ყველას დაკვრა</p>
+            </div>
+            <h3 class="absolute youtubeMixes__childs__song-name">მიქსი — Queen - We Will Rock<br>You (Official Lyric Video)</h3>
+            <p class="youtubeMixes__childs__youtube-footer absolute">Youtube</p>
+          </div>
+          <div class="container__youtubeMixes__childs relative">
+            <img src="img/loose-yourself.jpg" alt="" class="youtubeMixes__childs__img absolute">
+            <div class="youtubeMixes__childs__plus50 absolute flex">
+              <p class="childs__plus50__paragraph">50+</p>
+              <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; margin: 4px 0 0; fill: hsla(0, 0%, 100%, .8);">
+                <g class="style-scope yt-icon">
+                  <path d="M20.3 11.95c0 2.46-.95 4.7-2.47 6.32l1.07 1.13c1.8-1.92 2.9-4.55 2.9-7.45 0-2.9-1.12-5.54-2.9-7.45l-1.07 1.13c1.52 1.62 2.46 3.86 2.46 6.32zm-17 0c0-2.46.93-4.7 2.45-6.32L4.7 4.5c-1.8 1.9-2.9 4.54-2.9 7.45 0 2.9 1.1 5.53 2.9 7.45l1.05-1.13C4.23 16.64 3.3 14.4 3.3 11.95zm3 0c0-1.6.6-3.03 1.57-4.08L6.8 6.75c-1.24 1.34-2 3.17-2 5.2 0 2.03.76 3.86 2 5.2l1.07-1.12c-.97-1.06-1.58-2.5-1.58-4.08zm10.47-5.2L15.7 7.87c1 1.05 1.6 2.5 1.6 4.08 0 1.6-.6 3.02-1.6 4.08l1.07 1.12c1.25-1.34 2.02-3.17 2.02-5.2 0-2.03-.8-3.86-2.05-5.2zm-6.64 2.93l4.16 2.3-4.2 2.3v-4.6z" class="style-scope yt-icon"></path>
+                </g>
+              </svg>
+            </div>
+            <div class="play-all absolute">
+              <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; fill: hsla(0, 0%, 100%, .8);">
+                <g>
+                  <path d="M8 5v14l11-7z"></path>
+                </g>    
+              </svg>
+              <p>ყველას დაკვრა</p>
+            </div>
+            <h3 class="absolute youtubeMixes__childs__song-name">მიქსი — Eminem   Lose Yourself<br>HQ   Lyrics</h3>
+            <p class="youtubeMixes__childs__youtube-footer absolute">Youtube</p>
+          </div>
+          <div class="container__youtubeMixes__childs relative">
+            <img src="img/billie-jean.jpg" alt="" class="youtubeMixes__childs__img absolute">
+            <div class="youtubeMixes__childs__plus50 absolute flex">
+              <p class="childs__plus50__paragraph">50+</p>
+              <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; margin: 4px 0 0; fill: hsla(0, 0%, 100%, .8);">
+                <g class="style-scope yt-icon">
+                  <path d="M20.3 11.95c0 2.46-.95 4.7-2.47 6.32l1.07 1.13c1.8-1.92 2.9-4.55 2.9-7.45 0-2.9-1.12-5.54-2.9-7.45l-1.07 1.13c1.52 1.62 2.46 3.86 2.46 6.32zm-17 0c0-2.46.93-4.7 2.45-6.32L4.7 4.5c-1.8 1.9-2.9 4.54-2.9 7.45 0 2.9 1.1 5.53 2.9 7.45l1.05-1.13C4.23 16.64 3.3 14.4 3.3 11.95zm3 0c0-1.6.6-3.03 1.57-4.08L6.8 6.75c-1.24 1.34-2 3.17-2 5.2 0 2.03.76 3.86 2 5.2l1.07-1.12c-.97-1.06-1.58-2.5-1.58-4.08zm10.47-5.2L15.7 7.87c1 1.05 1.6 2.5 1.6 4.08 0 1.6-.6 3.02-1.6 4.08l1.07 1.12c1.25-1.34 2.02-3.17 2.02-5.2 0-2.03-.8-3.86-2.05-5.2zm-6.64 2.93l4.16 2.3-4.2 2.3v-4.6z" class="style-scope yt-icon"></path>
+                </g>
+              </svg>
+            </div>
+            <div class="play-all absolute">
+              <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; fill: hsla(0, 0%, 100%, .8);">
+                <g>
+                  <path d="M8 5v14l11-7z"></path>
+                </g>    
+              </svg>
+              <p>ყველას დაკვრა</p>
+            </div>
+            <h3 class="absolute youtubeMixes__childs__song-name">მიქსი — Michael Jackson "Billie<br>Jean" 30th Anniversary Madiso...</h3>
+            <p class="youtubeMixes__childs__youtube-footer absolute">Youtube</p>
+          </div>
+          <div class="container__youtubeMixes__childs relative">
+            <img src="img/we-remember.jpg" alt="" class="youtubeMixes__childs__img absolute">
+            <div class="youtubeMixes__childs__plus50 absolute flex">
+              <p class="childs__plus50__paragraph">50+</p>
+              <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; margin: 4px 0 0; fill: hsla(0, 0%, 100%, .8);">
+                <g class="style-scope yt-icon">
+                  <path d="M20.3 11.95c0 2.46-.95 4.7-2.47 6.32l1.07 1.13c1.8-1.92 2.9-4.55 2.9-7.45 0-2.9-1.12-5.54-2.9-7.45l-1.07 1.13c1.52 1.62 2.46 3.86 2.46 6.32zm-17 0c0-2.46.93-4.7 2.45-6.32L4.7 4.5c-1.8 1.9-2.9 4.54-2.9 7.45 0 2.9 1.1 5.53 2.9 7.45l1.05-1.13C4.23 16.64 3.3 14.4 3.3 11.95zm3 0c0-1.6.6-3.03 1.57-4.08L6.8 6.75c-1.24 1.34-2 3.17-2 5.2 0 2.03.76 3.86 2 5.2l1.07-1.12c-.97-1.06-1.58-2.5-1.58-4.08zm10.47-5.2L15.7 7.87c1 1.05 1.6 2.5 1.6 4.08 0 1.6-.6 3.02-1.6 4.08l1.07 1.12c1.25-1.34 2.02-3.17 2.02-5.2 0-2.03-.8-3.86-2.05-5.2zm-6.64 2.93l4.16 2.3-4.2 2.3v-4.6z" class="style-scope yt-icon"></path>
+                </g>
+              </svg>
+            </div>
+            <div class="play-all absolute">
+              <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; fill: hsla(0, 0%, 100%, .8);">
+                <g>
+                  <path d="M8 5v14l11-7z"></path>
+                </g>    
+              </svg>
+              <p>ყველას დაკვრა</p>
+            </div>
+            <h3 class="absolute youtubeMixes__childs__song-name" style="margin-bottom: 16px;">მიქსი — პოპ-მუსიკა</h3>
+            <p class="youtubeMixes__childs__youtube-footer absolute">Youtube</p>
+          </div>
+        </div>
+      </div>
+      <div class="content__container">
+        <h2 class="content__container__heading-recomendation">რეკომენდირებული</h2>
+        <div class="content__container__recomended-blocks flex">
+          <div class="container__recomended-blocks__childs relative">
+            <img src="img/blonde.jpg" alt="" class="recomended-blocks__childs__img absolute">
+            <div class="recomended-blocks__childs__time absolute">7:32</div>
+            <div class="recomended-blocks__childs__clock absolute">
+                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; fill: #ffffff;">
+                  <g>
+                    <path d="M12 3.67c-4.58 0-8.33 3.75-8.33 8.33s3.75 8.33 8.33 8.33 8.33-3.75 8.33-8.33S16.58 3.67 12 3.67zm3.5 11.83l-4.33-2.67v-5h1.25v4.34l3.75 2.25-.67 1.08z"></path>
+                  </g>
+                </svg>
+            </div>
+            <h3 class="recomended-blocks__childs__video-heading absolute">Блондинка в вагоне такое<br>сделала</h3>
+            <p class="recomended-blocks__childs__video-description absolute">На одной из остановок заходит...</p>
+            <div class="recomended-blocks__childs__update-information absolute">
+                <span>34K views</span>           
+                <span style="margin: 0 4px;">•</span>           
+                <span>4 days ago</span>
+            </div> 
+          </div>
+          <div class="container__recomended-blocks__childs relative">
+              <img src="img/news.webp" alt="" class="recomended-blocks__childs__img absolute">
+              <div class="recomended-blocks__childs__time absolute">13:32</div>
+              <div class="recomended-blocks__childs__clock absolute">
+                  <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; fill: #ffffff;">
+                    <g>
+                      <path d="M12 3.67c-4.58 0-8.33 3.75-8.33 8.33s3.75 8.33 8.33 8.33 8.33-3.75 8.33-8.33S16.58 3.67 12 3.67zm3.5 11.83l-4.33-2.67v-5h1.25v4.34l3.75 2.25-.67 1.08z"></path>
+                    </g>
+                  </svg>
+              </div>
+              <h3 class="recomended-blocks__childs__video-heading absolute">Золотов съехал с<br>сатисфакции</h3>
+              <p class="recomended-blocks__childs__video-description absolute">Полит SUN 2.0 [̲̅Y̲̅σ̲̅υ̲̅т̲̅υ̲̅b̲̅е]</p>
+              <div class="recomended-blocks__childs__update-information absolute">
+                  <span>15 ათ. ნახვა</span>           
+                  <span style="margin: 0 4px;">•</span>           
+                  <span>3 საათის წინ</span>
+              </div> 
+          </div>
+          <div class="container__recomended-blocks__childs relative">
+                <img src="img/imagine-dragons.webp" alt="" class="recomended-blocks__childs__img absolute">
+                <div class="recomended-blocks__childs__time absolute">3:53</div>
+                <div class="recomended-blocks__childs__clock absolute">
+                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; fill: #ffffff;">
+                      <g>
+                        <path d="M12 3.67c-4.58 0-8.33 3.75-8.33 8.33s3.75 8.33 8.33 8.33 8.33-3.75 8.33-8.33S16.58 3.67 12 3.67zm3.5 11.83l-4.33-2.67v-5h1.25v4.34l3.75 2.25-.67 1.08z"></path>
+                      </g>
+                    </svg>
+                </div>
+                <h3 class="recomended-blocks__childs__video-heading absolute">Imagine Dragons - Zero<br>(From the Original Motion...</h3>
+                <p class="recomended-blocks__childs__video-description absolute">ImagineDragons</p>
+                <div class="recomended-blocks__childs__update-information absolute">
+                    <span>5.2 მლნ. ნახვა</span>           
+                    <span style="margin: 0 4px;">•</span>           
+                    <span>2 დღის წინ</span>
+                </div> 
+          </div>
+          <div class="container__recomended-blocks__childs relative">
+                  <img src="img/js-mistakes.webp" alt="" class="recomended-blocks__childs__img absolute">
+                  <div class="recomended-blocks__childs__time absolute">6:09</div>
+                  <div class="recomended-blocks__childs__clock absolute">
+                      <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; fill: #ffffff;">
+                        <g>
+                          <path d="M12 3.67c-4.58 0-8.33 3.75-8.33 8.33s3.75 8.33 8.33 8.33 8.33-3.75 8.33-8.33S16.58 3.67 12 3.67zm3.5 11.83l-4.33-2.67v-5h1.25v4.34l3.75 2.25-.67 1.08z"></path>
+                        </g>
+                      </svg>
+                  </div>
+                  <h3 class="recomended-blocks__childs__video-heading absolute">8 Ошибок при изучении<br>JavaScript</h3>
+                  <p class="recomended-blocks__childs__video-description absolute">Web Developer Blog</p>
+                  <div class="recomended-blocks__childs__update-information absolute">
+                      <span>129 ათ. ნახვა</span>           
+                      <span style="margin: 0 4px;">•</span>           
+                      <span>1 წლის წინ</span>
+                  </div> 
+          </div>
+          <div class="container__recomended-blocks__childs relative">
+                    <img src="img/carribean-pirates.webp" alt="" class="recomended-blocks__childs__img absolute">
+                    <div class="recomended-blocks__childs__time absolute">3:09</div>
+                    <div class="recomended-blocks__childs__clock absolute">
+                        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; fill: #ffffff;">
+                          <g>
+                            <path d="M12 3.67c-4.58 0-8.33 3.75-8.33 8.33s3.75 8.33 8.33 8.33 8.33-3.75 8.33-8.33S16.58 3.67 12 3.67zm3.5 11.83l-4.33-2.67v-5h1.25v4.34l3.75 2.25-.67 1.08z"></path>
+                          </g>
+                        </svg>
+                    </div>
+                    <h3 class="recomended-blocks__childs__video-heading absolute">2CELLOS - Pirates Of The<br>Caribbean [OFFICIAL VIDEO]</h3>
+                    <p class="recomended-blocks__childs__video-description absolute">2CELLOS</p>
+                    <div class="recomended-blocks__childs__update-information absolute">
+                        <span>1.4 მლნ. ნახვა</span>           
+                        <span style="margin: 0 4px;">•</span>           
+                        <span>6 დღის წინ</span>
+                    </div> 
+          </div>    
+        </div>
+        <div class="content__container__recomended-blocks flex">
+            <div class="container__recomended-blocks__childs relative">
+              <img src="img/football.webp" alt="" class="recomended-blocks__childs__img absolute">
+              <div class="recomended-blocks__childs__time absolute">5:13</div>
+              <div class="recomended-blocks__childs__clock absolute">
+                  <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; fill: #ffffff;">
+                    <g>
+                      <path d="M12 3.67c-4.58 0-8.33 3.75-8.33 8.33s3.75 8.33 8.33 8.33 8.33-3.75 8.33-8.33S16.58 3.67 12 3.67zm3.5 11.83l-4.33-2.67v-5h1.25v4.34l3.75 2.25-.67 1.08z"></path>
+                    </g>
+                  </svg>
+              </div>
+              <h3 class="recomended-blocks__childs__video-heading absolute">10 пасов которые<br>НАМНОГО красивее чем...</h3>
+              <p class="recomended-blocks__childs__video-description absolute">Апельсин</p>
+              <div class="recomended-blocks__childs__update-information absolute">
+                  <span>123 ათ. ნახვა</span>           
+                  <span style="margin: 0 4px;">•</span>           
+                  <span>2 თვის წინ</span>
+              </div> 
+            </div>
+            <div class="container__recomended-blocks__childs relative">
+                <img src="img/glich.webp" alt="" class="recomended-blocks__childs__img absolute">
+                <div class="recomended-blocks__childs__time absolute">10:32</div>
+                <div class="recomended-blocks__childs__clock absolute">
+                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; fill: #ffffff;">
+                      <g>
+                        <path d="M12 3.67c-4.58 0-8.33 3.75-8.33 8.33s3.75 8.33 8.33 8.33 8.33-3.75 8.33-8.33S16.58 3.67 12 3.67zm3.5 11.83l-4.33-2.67v-5h1.25v4.34l3.75 2.25-.67 1.08z"></path>
+                      </g>
+                    </svg>
+                </div>
+                <h3 class="recomended-blocks__childs__video-heading absolute">GLITCH | SPECIAL PACK<br>ILIMITADOS FUT 19...</h3>
+                <p class="recomended-blocks__childs__video-description absolute">Seba FUT</p>
+                <div class="recomended-blocks__childs__update-information absolute">
+                    <span>117 ათ. ნახვა</span>           
+                    <span style="margin: 0 4px;">•</span>           
+                    <span>2 კვირის წინ</span>
+                </div> 
+            </div>
+            <div class="container__recomended-blocks__childs relative">
+                  <img src="img/faker.webp" alt="" class="recomended-blocks__childs__img absolute">
+                  <div class="recomended-blocks__childs__time absolute">19:54</div>
+                  <div class="recomended-blocks__childs__clock absolute">
+                      <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; fill: #ffffff;">
+                        <g>
+                          <path d="M12 3.67c-4.58 0-8.33 3.75-8.33 8.33s3.75 8.33 8.33 8.33 8.33-3.75 8.33-8.33S16.58 3.67 12 3.67zm3.5 11.83l-4.33-2.67v-5h1.25v4.34l3.75 2.25-.67 1.08z"></path>
+                        </g>
+                      </svg>
+                  </div>
+                  <h3 class="recomended-blocks__childs__video-heading absolute">Faker vs. Bjergsen |<br>Quarterfinals | 1v1...</h3>
+                  <p class="recomended-blocks__childs__video-description absolute">LoL Esports</p>
+                  <div class="recomended-blocks__childs__update-information absolute">
+                      <span>1.6 მლნ. ნახვა</span>           
+                      <span style="margin: 0 4px;">•</span>           
+                      <span>10 თვის წინ</span>
+                  </div> 
+            </div>
+            <div class="container__recomended-blocks__childs relative">
+                    <img src="img/pubg.webp" alt="" class="recomended-blocks__childs__img absolute">
+                    <div class="recomended-blocks__childs__time absolute">10:09</div>
+                    <div class="recomended-blocks__childs__clock absolute">
+                        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; fill: #ffffff;">
+                          <g>
+                            <path d="M12 3.67c-4.58 0-8.33 3.75-8.33 8.33s3.75 8.33 8.33 8.33 8.33-3.75 8.33-8.33S16.58 3.67 12 3.67zm3.5 11.83l-4.33-2.67v-5h1.25v4.34l3.75 2.25-.67 1.08z"></path>
+                          </g>
+                        </svg>
+                    </div>
+                    <h3 class="recomended-blocks__childs__video-heading absolute">Leo Rank ACE Trong 3 Ngày -<br>Hướng Dẫn Cách 1 - Pubg...</h3>
+                    <p class="recomended-blocks__childs__video-description absolute">Coci Coci</p>
+                    <div class="recomended-blocks__childs__update-information absolute">
+                        <span>2.9 ათ. ნახვა</span>           
+                        <span style="margin: 0 4px;">•</span>           
+                        <span>3 კვირის წინ</span>
+                    </div> 
+            </div>
+            <div class="container__recomended-blocks__childs relative">
+                      <img src="img/lucifer.webp" alt="" class="recomended-blocks__childs__img absolute">
+                      <div class="recomended-blocks__childs__time absolute">4:38</div>
+                      <div class="recomended-blocks__childs__clock absolute">
+                          <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; fill: #ffffff;">
+                            <g>
+                              <path d="M12 3.67c-4.58 0-8.33 3.75-8.33 8.33s3.75 8.33 8.33 8.33 8.33-3.75 8.33-8.33S16.58 3.67 12 3.67zm3.5 11.83l-4.33-2.67v-5h1.25v4.34l3.75 2.25-.67 1.08z"></path>
+                            </g>
+                          </svg>
+                      </div>
+                      <h3 class="recomended-blocks__childs__video-heading absolute">Люцифер встречает Бога.<br>Разговор Бога и Люцифера</h3>
+                      <p class="recomended-blocks__childs__video-description absolute">SALAVDI 2.0</p>
+                      <div class="recomended-blocks__childs__update-information absolute">
+                          <span>232 ათ. ნახვა</span>           
+                          <span style="margin: 0 4px;">•</span>           
+                          <span>2 კვირის წინ</span>
+                      </div> 
+            </div>    
+          </div>
+          <div class="content__container__recomended-blocks flex">
+              <div class="container__recomended-blocks__childs relative">
+                <img src="img/beliver.webp" alt="" class="recomended-blocks__childs__img absolute">
+                <div class="recomended-blocks__childs__time absolute">3:30</div>
+                <div class="recomended-blocks__childs__clock absolute">
+                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; fill: #ffffff;">
+                      <g>
+                        <path d="M12 3.67c-4.58 0-8.33 3.75-8.33 8.33s3.75 8.33 8.33 8.33 8.33-3.75 8.33-8.33S16.58 3.67 12 3.67zm3.5 11.83l-4.33-2.67v-5h1.25v4.34l3.75 2.25-.67 1.08z"></path>
+                      </g>
+                    </svg>
+                </div>
+                <h3 class="recomended-blocks__childs__video-heading absolute">Imagine Dragons - Believer<br>(8D AUDIO)</h3>
+                <p class="recomended-blocks__childs__video-description absolute">8D TUNES</p>
+                <div class="recomended-blocks__childs__update-information absolute">
+                    <span>20 მლნ. ნახვა</span>           
+                    <span style="margin: 0 4px;">•</span>           
+                    <span>2 თვის წინ</span>
+                </div> 
+              </div>
+              <div class="container__recomended-blocks__childs relative">
+                  <img src="img/js-begginers.webp" alt="" class="recomended-blocks__childs__img absolute">
+                  <div class="recomended-blocks__childs__time absolute">17:53</div>
+                  <div class="recomended-blocks__childs__clock absolute">
+                      <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; fill: #ffffff;">
+                        <g>
+                          <path d="M12 3.67c-4.58 0-8.33 3.75-8.33 8.33s3.75 8.33 8.33 8.33 8.33-3.75 8.33-8.33S16.58 3.67 12 3.67zm3.5 11.83l-4.33-2.67v-5h1.25v4.34l3.75 2.25-.67 1.08z"></path>
+                        </g>
+                      </svg>
+                  </div>
+                  <h3 class="recomended-blocks__childs__video-heading absolute">JavaScript для начинающих<br>| #12 Числа и методы чисел</h3>
+                  <p class="recomended-blocks__childs__video-description absolute">Magisters | Обучение современн...</p>
+                  <div class="recomended-blocks__childs__update-information absolute">
+                      <span>10 ათ. ნახვა</span>           
+                      <span style="margin: 0 4px;">•</span>           
+                      <span>2 წლის წინ</span>
+                  </div> 
+              </div>
+              <div class="container__recomended-blocks__childs relative">
+                    <img src="img/voice.webp" alt="" class="recomended-blocks__childs__img absolute">
+                    <div class="recomended-blocks__childs__time absolute">3:09</div>
+                    <div class="recomended-blocks__childs__clock absolute">
+                        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; fill: #ffffff;">
+                          <g>
+                            <path d="M12 3.67c-4.58 0-8.33 3.75-8.33 8.33s3.75 8.33 8.33 8.33 8.33-3.75 8.33-8.33S16.58 3.67 12 3.67zm3.5 11.83l-4.33-2.67v-5h1.25v4.34l3.75 2.25-.67 1.08z"></path>
+                          </g>
+                        </svg>
+                    </div>
+                    <h3 class="recomended-blocks__childs__video-heading absolute">Bon Jovi - Bed Of Roses<br>(Matthias Nebel) | The Voic...</h3>
+                    <p class="recomended-blocks__childs__video-description absolute">The Voice of Germany - Offiziell</p>
+                    <div class="recomended-blocks__childs__update-information absolute">
+                        <span>1.2 მლნ. ნახვა</span>           
+                        <span style="margin: 0 4px;">•</span>           
+                        <span>1 კვირის წინ</span>
+                    </div> 
+              </div>  
+            </div>
+            <a href="#" class="see-more">დამატებითი ინფორმაციის ჩვენება</a>
+      </div>
+      <div class="content__container">
+        <h2 class="content__container__heading-youtubeMixes">ახლახან ატვირთული<span class="container__heading-youtubeMixes__span">თქვენთვის რეკომენდებული ვიდეოები</span></h2>
+        <div class="content__container__recomended-blocks flex" style="margin-bottom: 50px;">
+          <div class="container__recomended-blocks__childs relative">
+            <img src="img/ingushet.webp" alt="" class="recomended-blocks__childs__img absolute">
+            <div class="recomended-blocks__childs__time absolute">6:44</div>
+            <div class="recomended-blocks__childs__clock absolute">
+                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; fill: #ffffff;">
+                  <g>
+                    <path d="M12 3.67c-4.58 0-8.33 3.75-8.33 8.33s3.75 8.33 8.33 8.33 8.33-3.75 8.33-8.33S16.58 3.67 12 3.67zm3.5 11.83l-4.33-2.67v-5h1.25v4.34l3.75 2.25-.67 1.08z"></path>
+                  </g>
+                </svg>
+            </div>
+            <h3 class="recomended-blocks__childs__video-heading absolute">Что происходит в<br>Ингушетии? (продолжение)</h3>
+            <p class="recomended-blocks__childs__video-description absolute">Frontier</p>
+            <div class="recomended-blocks__childs__update-information absolute">
+                <span>351 ათ. ნახვა</span>           
+                <span style="margin: 0 4px;">•</span>           
+                <span>1 დღის წინ</span>
+            </div> 
+          </div>
+          <div class="container__recomended-blocks__childs relative">
+              <img src="img/fortnite.webp" alt="" class="recomended-blocks__childs__img absolute">
+              <div class="recomended-blocks__childs__clock absolute">
+                  <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; fill: #ffffff;">
+                    <g>
+                      <path d="M12 3.67c-4.58 0-8.33 3.75-8.33 8.33s3.75 8.33 8.33 8.33 8.33-3.75 8.33-8.33S16.58 3.67 12 3.67zm3.5 11.83l-4.33-2.67v-5h1.25v4.34l3.75 2.25-.67 1.08z"></path>
+                    </g>
+                  </svg>
+              </div>
+              <h3 class="recomended-blocks__childs__video-heading absolute">🔥 Стрим ФОРТНАЙТ! 💀<br>Коса в магазине?!...</h3>
+              <p class="recomended-blocks__childs__video-description absolute">DenJahMan</p>
+              <div class="recomended-blocks__childs__update-information absolute">
+                  <span>103 უყურებს</span>           
+              </div> 
+              <div class="stream absolute">პირდაპირ ეთერშია</div>
+          </div>
+          <div class="container__recomended-blocks__childs relative">
+                <img src="img/iphone.webp" alt="" class="recomended-blocks__childs__img absolute">
+                <div class="recomended-blocks__childs__time absolute">23:29</div>
+                <div class="recomended-blocks__childs__clock absolute">
+                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; fill: #ffffff;">
+                      <g>
+                        <path d="M12 3.67c-4.58 0-8.33 3.75-8.33 8.33s3.75 8.33 8.33 8.33 8.33-3.75 8.33-8.33S16.58 3.67 12 3.67zm3.5 11.83l-4.33-2.67v-5h1.25v4.34l3.75 2.25-.67 1.08z"></path>
+                      </g>
+                    </svg>
+                </div>
+                <h3 class="recomended-blocks__childs__video-heading absolute">Распаковка iPhone XR всех<br>цветов</h3>
+                <p class="recomended-blocks__childs__video-description absolute">Wylsacom</p>
+                <div class="recomended-blocks__childs__update-information absolute">
+                    <span>2.1 მლნ. ნახვა</span>           
+                    <span style="margin: 0 4px;">•</span>           
+                    <span>2 დღის წინ</span>
+                </div> 
+          </div>
+          <div class="container__recomended-blocks__childs relative">
+                  <img src="img/aliexpres.webp" alt="" class="recomended-blocks__childs__img absolute">
+                  <div class="recomended-blocks__childs__time absolute">10:19</div>
+                  <div class="recomended-blocks__childs__clock absolute">
+                      <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; fill: #ffffff;">
+                        <g>
+                          <path d="M12 3.67c-4.58 0-8.33 3.75-8.33 8.33s3.75 8.33 8.33 8.33 8.33-3.75 8.33-8.33S16.58 3.67 12 3.67zm3.5 11.83l-4.33-2.67v-5h1.25v4.34l3.75 2.25-.67 1.08z"></path>
+                        </g>
+                      </svg>
+                  </div>
+                  <h3 class="recomended-blocks__childs__video-heading absolute">17 БЕЗУМНЫХ ВЕЩЕЙ С<br>ALIEXPRESS, ОТ КОТОРЫХ...</h3>
+                  <p class="recomended-blocks__childs__video-description absolute">Alex Vikodinov</p>
+                  <div class="recomended-blocks__childs__update-information absolute">
+                      <span>434 ათ. ნახვა</span>           
+                      <span style="margin: 0 4px;">•</span>           
+                      <span>6 დღის წინ</span>
+                  </div> 
+          </div>
+          <div class="container__recomended-blocks__childs relative">
+                    <img src="img/drons.webp" alt="" class="recomended-blocks__childs__img absolute">
+                    <div class="recomended-blocks__childs__time absolute">4:38</div>
+                    <div class="recomended-blocks__childs__clock absolute">
+                        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px; fill: #ffffff;">
+                          <g>
+                            <path d="M12 3.67c-4.58 0-8.33 3.75-8.33 8.33s3.75 8.33 8.33 8.33 8.33-3.75 8.33-8.33S16.58 3.67 12 3.67zm3.5 11.83l-4.33-2.67v-5h1.25v4.34l3.75 2.25-.67 1.08z"></path>
+                          </g>
+                        </svg>
+                    </div>
+                    <h3 class="recomended-blocks__childs__video-heading absolute">ДРОНЫ, ОПЯТЬ! НО,<br>РОССИЯ СКРЕПНО...</h3>
+                    <p class="recomended-blocks__childs__video-description absolute">VALERON 2%</p>
+                    <div class="recomended-blocks__childs__update-information absolute">
+                        <span>25 ათ. ნახვა</span>           
+                        <span style="margin: 0 4px;">•</span>           
+                        <span>5 საათის წინ</span>
+                    </div> 
+          </div>    
+        </div>
+      </div>
+    </main>
+<script src="js/index.js"></script>
+</body>
+</html>
